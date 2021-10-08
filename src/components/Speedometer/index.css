@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.Container {
+  background-color: #000000;
+  height: 100vh;
+  text-align: center;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 500px;
+  height: 200px;
+}
+.heading {
+  font-size: 35px;
+}
+.speed {
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.button {
+  background-color: #0b69ff;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 20px;
+}
+.button1 {
+  background-color: transparent;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  border-color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    height: 700px;
+    width: 500px;
+  }
+  .heading {
+    font-size: 38px;
+  }
+  .speed {
+    font-size: 30px;
+  }
+}
